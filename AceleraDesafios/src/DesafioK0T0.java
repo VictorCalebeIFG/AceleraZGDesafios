@@ -2,10 +2,11 @@ public class DesafioK0T0 {
     
     public static void main(String[] args) {
 
+        // Basta remover os cometários que roda tudo do jeito que esta.
+        
         //System.out.println(somaMultiplosDe3());
         //System.out.println(Fibonaci());
-        //600851475143l
-        System.out.println(maiorPrimo(600851475143l));
+        //System.out.println(maiorPrimo(600851475143l));
 
     }
 
@@ -53,7 +54,6 @@ public class DesafioK0T0 {
         
             if (current != naoPrimo && val%current==0){
                 maior = current; 
-                System.out.printf("primo: %d, resto %d \n",current,val%current );
             }
         }
         return maior;
